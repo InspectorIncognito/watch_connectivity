@@ -69,7 +69,7 @@ public class SwiftWatchConnectivityPlugin: NSObject, FlutterPlugin, WCSessionDel
     }
   }
 
-  public func session(_ session: WCSession, didReceiveMessage message: [String: Any], replyHandler: @escaping ([String: Any] -> Void)) {
+  public func session(_ session: WCSession, didReceiveMessage message: [String: Any], replyHandler: @escaping ([String: Any]) -> Void) {
     // TODO(PuntitOwO): accept replyHandler
     DispatchQueue.main.async {
       self.channel.invokeMethod("didReceiveMessage", arguments: message)

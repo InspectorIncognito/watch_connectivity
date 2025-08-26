@@ -1,6 +1,6 @@
 name: watch_connectivity
 description: Wrapper for WatchConnectivity on iOS and Wearable APIs on Android
-version: 0.3.0
+version: 0.3.1
 homepage: https://github.com/InspectorIncognito/watch_connectivity/tree/main/watch_connectivity
 publish_to: none
 

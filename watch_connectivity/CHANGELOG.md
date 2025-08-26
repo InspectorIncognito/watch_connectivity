@@ -1,3 +1,7 @@
+## 0.3.0
+
+- Add `session( :didReceiveMessage:replyHandler)` delegate
+
 ## 0.2.1+1
 
 - Updates README
